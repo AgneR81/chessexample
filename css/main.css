@@ -1,0 +1,31 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flexbox;
+}
+.chessboard {
+    width: 490px;
+    height: 490px;
+    margin: 20px;
+    border: 1px solid #333;
+}
+.black {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: #999;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
